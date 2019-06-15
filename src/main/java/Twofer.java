@@ -1,5 +1,10 @@
 class Twofer {
     String twofer(String name) {
-        throw new UnsupportedOperationException("Delete this line and write your own implementation");
+        return "One for " + name + ", one for me.";
     }
+
+    String twofer() {
+        return "One for you, one for me.";
+    }
+
 }
